@@ -1,2 +1,2 @@
 # pysign
-Sign any message, auto push to github
+Sign any message, auto push to github.
