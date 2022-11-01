@@ -16,15 +16,15 @@ echo "$userentry"|gpg --clearsign > $datetime.txt
 #echo "$userentry" | gpg --clearsign | nc termbin.com 9999
 
 git add .
-wait
+sleep 1
 git commit -m "$datetime"
-wait
+sleep 1
 git push origin main
-wait
+sleep 1
 inpharmaticist
-wait
-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
-wait
+sleep 1
+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
+sleep 1
 
 
 echo "
